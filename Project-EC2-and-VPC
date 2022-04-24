@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-24T22:47:30.172Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="kchVwbITbNgzj11PF51d" version="17.4.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-24T23:06:43.094Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.127 Safari/537.36 Edg/100.0.1185.50" etag="KU3yrwcLmNYIM9kv2SyG" version="17.4.6" type="github">
   <diagram id="KniToLFwWGu6Jlj3yHLk" name="Page-1">
     <mxGraphModel dx="2382" dy="844" grid="1" gridSize="12" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -49,8 +49,8 @@
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-165" value="&lt;b&gt;EC2 LINUX WEB01&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-129">
           <mxGeometry x="187.03682274247493" y="168.92752475247516" width="94.70769230769233" height="35.643564356435625" as="geometry" />
         </mxCell>
-        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-242" value="&lt;b&gt;SecurityGroupWeb&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-129">
-          <mxGeometry x="160.39327759197326" y="71.45188118811888" width="144" height="24" as="geometry" />
+        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-242" value="&lt;b&gt;WEB-SECGRP&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-129">
+          <mxGeometry x="172.39327759197326" y="71.45188118811888" width="120" height="24" as="geometry" />
         </mxCell>
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-260" value="" style="group" vertex="1" connectable="0" parent="hcWq3ZnehMUbksx9Q3Ke-129">
           <mxGeometry x="86.03451505016722" y="115.58188118811887" width="94.70769230769233" height="88.99524752475236" as="geometry" />
@@ -130,8 +130,8 @@
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-156" value="" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;gradientColor=#F78E04;gradientDirection=north;fillColor=#D05C17;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.ec2;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-130">
           <mxGeometry x="213.61" y="108.99000000000001" width="49.48" height="49.48" as="geometry" />
         </mxCell>
-        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-245" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;SecurityGroupDB&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-130">
-          <mxGeometry x="174.20279248120298" y="71.99539219576734" width="132" height="24" as="geometry" />
+        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-245" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;DB-SECGRP&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-130">
+          <mxGeometry x="186.20279248120298" y="71.99539219576734" width="108" height="24" as="geometry" />
         </mxCell>
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-261" value="" style="group" vertex="1" connectable="0" parent="hcWq3ZnehMUbksx9Q3Ke-130">
           <mxGeometry x="84.09999999999991" y="110.22772277227727" width="95.30003553327765" height="95.02303741290791" as="geometry" />
@@ -163,8 +163,8 @@
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-193" value="" style="rounded=1;arcSize=10;dashed=1;strokeColor=#ff0000;fillColor=none;gradientColor=none;dashPattern=8 4;strokeWidth=2;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-192">
           <mxGeometry x="134" y="48" width="118" height="108" as="geometry" />
         </mxCell>
-        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-243" value="&lt;font style=&quot;font-size: 14px&quot;&gt;&lt;b&gt;SecurityGroupWeb&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-192">
-          <mxGeometry x="124.22000000000003" y="23.997722772277267" width="144" height="24" as="geometry" />
+        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-243" value="&lt;b&gt;WEB-SECGRP&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="hcWq3ZnehMUbksx9Q3Ke-192">
+          <mxGeometry x="136.22000000000003" y="23.997722772277267" width="120" height="24" as="geometry" />
         </mxCell>
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-262" value="" style="group" vertex="1" connectable="0" parent="hcWq3ZnehMUbksx9Q3Ke-192">
           <mxGeometry x="25.395319955656287" y="66.90772277227728" width="98.82210362471515" height="87.90297029702964" as="geometry" />
@@ -184,8 +184,8 @@
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-93" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;Region us-east-1 (N.Virginia)&lt;/font&gt;&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;dashed=1;fontColor=#004C99;" vertex="1" parent="1">
           <mxGeometry x="-132" y="97.55871287128713" width="232.56000000000003" height="35.64356435643564" as="geometry" />
         </mxCell>
-        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-244" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px&quot;&gt;SecurityGroupDB&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="1">
-          <mxGeometry x="638.51" y="528" width="132" height="24" as="geometry" />
+        <mxCell id="hcWq3ZnehMUbksx9Q3Ke-244" value="&lt;b&gt;DB-SECGRP&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontColor=#004C99;" vertex="1" parent="1">
+          <mxGeometry x="650.51" y="528" width="108" height="24" as="geometry" />
         </mxCell>
         <mxCell id="hcWq3ZnehMUbksx9Q3Ke-187" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=14;fontColor=#004C99;fillColor=#ffe6cc;strokeColor=#d79b00;" edge="1" parent="1" source="hcWq3ZnehMUbksx9Q3Ke-181" target="hcWq3ZnehMUbksx9Q3Ke-183">
           <mxGeometry relative="1" as="geometry" />
